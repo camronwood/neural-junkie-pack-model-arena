@@ -1,0 +1,7 @@
+logic:
+  difficulty: all
+  max_puzzles: 20
+connect4:
+  scripted_columns: [3, 2, 3, 2, 3, 2, 3]
+chess:
+  smoke_moves: ["e2e4", "e7e5", "g1f3"]

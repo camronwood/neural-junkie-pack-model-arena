@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Model Arena">
+  <rect width="64" height="64" rx="14" fill="#111827"/>
+  <path d="M18 45h28v5H18zM22 38h20v5H22zM25 16h14l-3 20H28z" fill="#f9fafb"/>
+  <path d="M20 14h24v5H20zM16 20h8v8h-8zM40 20h8v8h-8z" fill="#a7f3d0"/>
+</svg>

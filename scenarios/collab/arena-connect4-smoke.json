@@ -1,0 +1,15 @@
+{
+  "name": "arena-connect4-smoke",
+  "tags": ["pack-smoke", "model-arena", "connect4"],
+  "setup": { "packs": ["model-arena"] },
+  "steps": [
+    { "action": "setup_pack", "pack_id": "model-arena" },
+    {
+      "action": "assert_arena_session",
+      "challenge": "connect4",
+      "moves": [3, 2, 3, 2, 3, 2, 3],
+      "expected_status": "finished",
+      "expected_result": "red"
+    }
+  ]
+}

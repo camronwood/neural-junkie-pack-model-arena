@@ -1,0 +1,16 @@
+puzzles:
+  - id: kk-001
+    difficulty: easy
+    title: One truth teller
+    prompt: "On an island, Ada says: 'Babbage is a knight.' Babbage says: 'Ada and I are different types.' Knights always tell the truth and knaves always lie. What is Ada?"
+    answer: knave
+  - id: kk-002
+    difficulty: easy
+    title: Same type
+    prompt: "Ada says: 'Babbage and I are the same type.' Babbage says: 'Ada is a knave.' What is Ada?"
+    answer: knave
+  - id: kk-003
+    difficulty: medium
+    title: Three islanders
+    prompt: "Ada says: 'Babbage is a knave.' Babbage says: 'Curie is a knight.' Curie says: 'Ada and I are different types.' What is Curie?"
+    answer: knave
