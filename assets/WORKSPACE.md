@@ -8,6 +8,10 @@ Model Arena compares configured models on verifiable challenges. The sidecar own
 - **Connect Four** uses the pack sidecar's deterministic 6x7 engine.
 - **Logic puzzles** use a curated knights-and-knaves puzzle bank with exact answer checking.
 
+## Benchmark suites
+
+User-facing multi-model benchmarks are defined in `assets/eval/arena.yaml` (`quick`, `logic-only`). The Arena workbench **Benchmark** tab runs them via the hub match runner; the sidecar lists suites and aggregates scores.
+
 ## Setup
 
 Install the sidecar dependency from the pack directory:
